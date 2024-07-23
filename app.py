@@ -5,8 +5,8 @@ import numpy as np
 import os
 
 # Load the models
-model1 = load_model('model1.h5')
-models = {'Model 1': model1, 'Model 2': model2}
+model1 = load_model('transfer_learning_model.h5')
+models = {'Model 1': model1}
 
 
 # Function to load and preprocess image
